@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aqib-bhat/aqib-bhat.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/aqib-bhat/aqib-bhat.github.io/static/js/main.291c0c52.js",
-    "static/js/787.2a101f13.chunk.js": "/aqib-bhat/aqib-bhat.github.io/static/js/787.2a101f13.chunk.js",
-    "static/media/logo.svg": "/aqib-bhat/aqib-bhat.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/aqib-bhat/aqib-bhat.github.io/index.html",
-    "main.f855e6bc.css.map": "/aqib-bhat/aqib-bhat.github.io/static/css/main.f855e6bc.css.map",
-    "main.291c0c52.js.map": "/aqib-bhat/aqib-bhat.github.io/static/js/main.291c0c52.js.map",
-    "787.2a101f13.chunk.js.map": "/aqib-bhat/aqib-bhat.github.io/static/js/787.2a101f13.chunk.js.map"
+    "main.css": "/aqib-bhat.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/aqib-bhat.github.io/static/js/main.7a39fbc2.js",
+    "static/js/787.2a101f13.chunk.js": "/aqib-bhat.github.io/static/js/787.2a101f13.chunk.js",
+    "static/media/logo.svg": "/aqib-bhat.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/aqib-bhat.github.io/index.html",
+    "main.f855e6bc.css.map": "/aqib-bhat.github.io/static/css/main.f855e6bc.css.map",
+    "main.7a39fbc2.js.map": "/aqib-bhat.github.io/static/js/main.7a39fbc2.js.map",
+    "787.2a101f13.chunk.js.map": "/aqib-bhat.github.io/static/js/787.2a101f13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.291c0c52.js"
+    "static/js/main.7a39fbc2.js"
   ]
 }
