@@ -13,10 +13,7 @@ class Home extends React.Component {
                     Brief notes about me
                 </p>
                 <p>
-                    1. LinkedIn
-                    2. Resume
-                    3. Portfolio
-                    4. Blog
+                    LinkedIn | Resume | Curriculum Vitae (CV) | Blog
                 </p>
             </header>
           </div>  
