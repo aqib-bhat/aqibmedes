@@ -1,21 +1,21 @@
 import '../App.css';
 import React from 'react';
-import { ReactComponent as DisplayPic } from "../logo.svg";
+import displayPic from "../assets/images/Aqib_DP.jpeg";
+import { Avatar } from '@mui/material';
 
 class Home extends React.Component {
     render() {
         return (
           <div className="App">
-            <header className="App-header">
-                <DisplayPic style={{ height: 200 }} />
-                <h1>Aqib's personal website</h1>
-                <p>
-                    Brief notes about me
-                </p>
-                <p>
-                    LinkedIn | Resume | Curriculum Vitae (CV) | Blog
-                </p>
-            </header>
+            <Avatar
+                    alt="Aqib"
+                    src={displayPic}
+                    sx={{ width: 200, height: 200 }}
+                    variant="square"
+            ></Avatar>
+            <p>
+                Howdy! This is Aqib, What this site is all about.
+            </p>
           </div>  
         );
     }
