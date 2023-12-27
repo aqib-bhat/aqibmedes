@@ -14,7 +14,7 @@ import BlogsIcon from '@mui/icons-material/LineWeightSharp';
 import PodcastsIcon from '@mui/icons-material/Mic';
 
 export default function SelectedListItem() {
-  const [selectedIndex, setSelectedIndex] = React.useState(1);
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
 
   const handleListItemClick = (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>,
@@ -23,11 +23,11 @@ export default function SelectedListItem() {
     setSelectedIndex(index);
   };
 
-  return (
-    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-      <List component="nav" aria-label="main website pages">
+  return ( // width: '100%', maxWidth: 360, bgcolor: 'background.paper'
+    <Box sx={{ maxWidth: 'sm' }}>
+      <List  component="nav" aria-label="main website pages">
         <Link to="/">
-            <ListItemButton selected={selectedIndex === 1} onClick={(event) => handleListItemClick(event, 0)} >
+            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 0)} >
                 <ListItemIcon>
                     <HomeIcon />
                 </ListItemIcon>
@@ -35,7 +35,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/about">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 1)} >
+            <ListItemButton selected={selectedIndex === 1} onClick={(event) => handleListItemClick(event, 1)} >
                 <ListItemIcon>
                     <AboutIcon />
                 </ListItemIcon>
@@ -43,7 +43,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/resume">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 2)} >
+            <ListItemButton selected={selectedIndex === 2} onClick={(event) => handleListItemClick(event, 2)} >
                 <ListItemIcon>
                     <FileOpenIcon />
                 </ListItemIcon>
@@ -51,7 +51,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/contact">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 3)} >
+            <ListItemButton selected={selectedIndex === 3} onClick={(event) => handleListItemClick(event, 3)} >
                 <ListItemIcon>
                     <ContactPageIcon />
                 </ListItemIcon>
@@ -59,7 +59,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/bookshelf">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 4)} >
+            <ListItemButton selected={selectedIndex === 4} onClick={(event) => handleListItemClick(event, 4)} >
                 <ListItemIcon>
                     <LibraryBooksIcon />
                 </ListItemIcon>
@@ -67,7 +67,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/blogs">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 5)} >
+            <ListItemButton selected={selectedIndex === 5} onClick={(event) => handleListItemClick(event, 5)} >
                 <ListItemIcon>
                     <BlogsIcon />
                 </ListItemIcon>
@@ -75,7 +75,7 @@ export default function SelectedListItem() {
             </ListItemButton>
         </Link>
         <Link to="/podcasts">
-            <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 6)} >
+            <ListItemButton selected={selectedIndex === 6} onClick={(event) => handleListItemClick(event, 6)} >
                 <ListItemIcon>
                     <PodcastsIcon />
                 </ListItemIcon>
