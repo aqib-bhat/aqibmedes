@@ -4,15 +4,15 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <h2>About Me - Aqib Niaz Bhat</h2>
+                <h2>About Me</h2>
                 <main>
-                    <p>Brief intro about me.</p>
+                    <p>A software engineer currently based in the Greater Vancouver Area in Canada.</p>
+                    <p>Thought process</p>
+                    <p>Interests outside of work</p>
                 </main>
             </div>
         )
     }
 }
-
-
 
 export default AboutMe;

@@ -4,15 +4,13 @@ class Podcasts extends React.Component {
     render() {
         return (
             <div>
-                <h2>Podcasts - Aqib Niaz Bhat</h2>
+                <h2>Podcasts</h2>
                 <main>
-                    <p>Info about my podcasts.</p>
+                    <p>Coming soon!</p>
                 </main>
             </div>
         )
     }
 }
-
-
 
 export default Podcasts;

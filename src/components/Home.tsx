@@ -14,12 +14,11 @@ class Home extends React.Component {
                     variant="square"
             ></Avatar>
             <p>
-                Howdy! This is Aqib, What this site is all about.
+                Howdy! This is Aqib. I am a software engineer by profession.
             </p>
           </div>  
         );
     }
-
 }
 
 export default Home;

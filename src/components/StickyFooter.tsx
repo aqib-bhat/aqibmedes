@@ -8,7 +8,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
       {'Copyright © '}
-      <Link href="https://aqib-bhat.github.io/aqibmedes/" target="_blank" rel="noopener">
+      <Link href="https://aqib-bhat.github.io/aqibmedes/" underline="hover">
         Aqib Niaz Bhat
       </Link>{' '}
       {new Date().getFullYear()}
@@ -37,15 +37,16 @@ export default function StickyFooter() {
           <Container sx={{
             width: {
                 xs: 500, // 0
-                sm: 700, // 600
-                md: 800, // 900
-                lg: 850, // 1200
-                xl: 900, // 1536
+                sm: 850, // 600
+                md: 920, // 900
+                lg: 935, // 1200
+                xl: 950, // 1536
             },
             bgcolor: 'background.paper'
           }}>
             <Typography variant="body1">
-              This website is hosted on GitHub pages,<br/>and sourced from <Link href='https://github.com/aqib-bhat/aqibmedes' target="_blank" rel="noopener">my GitHub repository named 'aqibmedes'</Link>.
+              This website is hosted on GitHub pages, and<br/>
+              sourced from <Link href='https://github.com/aqib-bhat/aqibmedes' target="_blank" rel="noopener" underline="hover">my GitHub repository named 'aqibmedes'</Link>.
             </Typography>
             <Copyright />
           </Container>
