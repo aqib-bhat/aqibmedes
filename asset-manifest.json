@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/aqibmedes/static/css/main.3d6938e3.css",
-    "main.js": "/aqibmedes/static/js/main.85fbbd54.js",
+    "main.js": "/aqibmedes/static/js/main.3b49cabd.js",
     "static/js/787.b113372d.chunk.js": "/aqibmedes/static/js/787.b113372d.chunk.js",
     "static/media/Aqib_DP.jpeg": "/aqibmedes/static/media/Aqib_DP.9f09214024d9186b92ce.jpeg",
     "index.html": "/aqibmedes/index.html",
     "main.3d6938e3.css.map": "/aqibmedes/static/css/main.3d6938e3.css.map",
-    "main.85fbbd54.js.map": "/aqibmedes/static/js/main.85fbbd54.js.map",
+    "main.3b49cabd.js.map": "/aqibmedes/static/js/main.3b49cabd.js.map",
     "787.b113372d.chunk.js.map": "/aqibmedes/static/js/787.b113372d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d6938e3.css",
-    "static/js/main.85fbbd54.js"
+    "static/js/main.3b49cabd.js"
   ]
 }
