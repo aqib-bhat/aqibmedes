@@ -85,7 +85,7 @@ In the project directory, you can run:
   - Once the latest deployment finishes, your website should now be live at: https://yourusername.github.io/repository-name
     - Remember to replace `yourusername` with **your actual GitHub username**! :D
  
-### References and acknowledgements
+## References and acknowledgements
  
 I was able to get going following these sources:
 - https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/
