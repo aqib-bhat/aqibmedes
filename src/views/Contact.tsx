@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Paper, Stack } from '@mui/material';
+import { Link, Paper, Stack, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -17,9 +17,21 @@ class Contact extends React.Component {
                 <h2>Contact Me</h2>
                 <main>
                     <Stack spacing={2}>
-                        <Item><Link href='https://www.linkedin.com/in/aqibbhat' target="_blank" rel="noopener" underline="hover">My LinkedIn profile</Link></Item>
-                        <Item><strong>Email and mobile number:</strong> Shared on request through LinkedIn.</Item>
-                        <Item><Link href='https://github.com/aqib-bhat' target="_blank" rel="noopener" underline="hover">My GitHub profile</Link></Item>
+                        <Item>
+                            <Typography variant="h5" gutterBottom>
+                                <Link href='https://www.linkedin.com/in/aqibbhat' target="_blank" rel="noopener" underline="hover">My LinkedIn profile</Link>
+                            </Typography>
+                        </Item>
+                        <Item>
+                            <Typography variant="h5" gutterBottom>
+                                <strong>Email and mobile number:</strong> Shared on request through LinkedIn.
+                            </Typography>
+                        </Item>
+                        <Item>
+                            <Typography variant="h5" gutterBottom>
+                                <Link href='https://aqibbhat.wordpress.com/contact/' target="_blank" rel="noopener" underline="hover">My blog's Contact page</Link>
+                            </Typography>
+                        </Item>
                     </Stack>
                 </main>
             </div>
