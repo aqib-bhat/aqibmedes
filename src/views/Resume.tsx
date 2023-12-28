@@ -47,12 +47,12 @@ export default function Resume() {
                     </AccordionSummary>
                     <AccordionDetails>
                       {experienceInfo.map((item) => (
-                        <React.Fragment key={item.timePeriod}>
+                        <React.Fragment key={item.startDate}>
                           <CardContent>
                             <Typography variant="h6" gutterBottom align='left'>{item.name}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>🌎 {item.location}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>{item.title}</Typography>
-                            <Typography variant="subtitle1" gutterBottom align='left'>🕰 {item.timePeriod}</Typography>
+                            <Typography variant="subtitle1" gutterBottom align='left'>🗓 {item.startDate} -<strong>to</strong>- {item.endDate}</Typography>
                             <Typography variant="body1" gutterBottom align='left'>{item.details}</Typography>
                           </CardContent>
                         </React.Fragment>
