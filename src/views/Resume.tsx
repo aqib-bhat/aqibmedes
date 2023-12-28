@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Accordion, AccordionDetails, AccordionSummary, Box, CardContent, Grid, Link, Paper, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { experienceInfo, certifications } from '../data/ResumeData';
+import { experienceInfo, education, certifications } from '../data/ResumeData';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -53,7 +53,9 @@ export default function Resume() {
                             <Typography variant="subtitle1" gutterBottom align='left'>🌎 {item.location}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>{item.title}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>🗓 {item.startDate} -<strong>to</strong>- {item.endDate}</Typography>
-                            <Typography variant="body1" gutterBottom align='left'>{item.details}</Typography>
+                            { item.details.map((detail) =>
+                              <Typography variant="body1" gutterBottom align='left'>➡ {detail}</Typography>
+                            )}
                           </CardContent>
                         </React.Fragment>
                       ))}
@@ -91,10 +93,19 @@ export default function Resume() {
                         <Typography variant="h5">🎓 Education</Typography>
                       </AccordionSummary>
                       <AccordionDetails>
-                        <Typography>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                          malesuada lacus ex, sit amet blandit leo lobortis eget.
-                        </Typography>
+                        {education.map((item) => (
+                            <React.Fragment key={item.degreeName}>
+                              <CardContent>
+                                <Typography variant="h6" gutterBottom align='left'>🏛 <strong>{item.institute}</strong></Typography>
+                                <Typography variant="subtitle1" gutterBottom align='left'>🌎 <strong>{item.location}</strong></Typography>
+                                <Typography variant="subtitle1" gutterBottom align='left'>📚 <strong>{item.degreeName} 🔍 {item.concentration}</strong></Typography>
+                                <Typography variant="body1" gutterBottom align='left'>🗓 <strong>Start: </strong>{item.start} 🗓 <strong>End: </strong>{item.end}</Typography>
+                                { item.details.map((detail) =>
+                                  <Typography variant="body1" gutterBottom align='left'>➡ {detail}</Typography>
+                                )}
+                              </CardContent>
+                            </React.Fragment>
+                          ))}
                       </AccordionDetails>
                     </Accordion>
                 </Item>
