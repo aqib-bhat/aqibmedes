@@ -32,7 +32,6 @@ This repository is used for publishing my personal website at: https://aqib-bhat
   - `yarn add @fontsource/roboto`
   - `yarn add @mui/icons-material`
 - Install React Router for web applications: `yarn add react-router-dom`
-- For displaying PDFs, use [React-PDF](https://www.npmjs.com/package/react-pdf): `yarn add react-pdf`
 
 ### If you check out this repository:
 - Run: `npm install`

@@ -4,13 +4,13 @@ import StickyFooter from './components/StickyFooter';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import DrawerAppBar from './components/DrawerAppBar';
-import Home from './components/Home';
-import AboutMe from './components/AboutMe';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import Bookshelf from './components/Bookshelf';
-import Blogs from './components/Blogs';
-import Podcasts from './components/Podcasts';
+import Home from './views/Home';
+import AboutMe from './views/AboutMe';
+import Resume from './views/Resume';
+import Contact from './views/Contact';
+import Bookshelf from './views/Bookshelf';
+import Blogs from './views/Blogs';
+import Podcasts from './views/Podcasts';
 
 const darkTheme = createTheme({
   palette: {
