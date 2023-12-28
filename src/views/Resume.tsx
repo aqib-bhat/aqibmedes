@@ -53,27 +53,19 @@ export default function Resume() {
           </Typography>
           <Box sx={{ flexGrow: 1, padding: 2 }}>
             <Grid container spacing={2}>
-              <Grid item xs={8}>
+              <Grid item xs={12}>
                 <Item>
                   <React.Fragment>
                     <CardContent>
                       <Typography variant="subtitle1">Software engineer with experience, skills, and a strong work ethic.</Typography>
                       <Typography variant="subtitle1">Work Authorization: Canadian 3-year Open Work Permit approved in August 2023.</Typography>
+                      <Typography variant="subtitle1">🌎 Greater Vancouver Area, BC, Canada 🇨🇦</Typography>
+                      <Typography variant="subtitle1">📧 Email and 📱 mobile number available on request</Typography>
                     </CardContent>
                   </React.Fragment>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
-                <Item>
-                  <React.Fragment>
-                    <CardContent>
-                      <Typography variant="subtitle1" align='left'>🌎 Greater Vancouver Area, BC, Canada 🇨🇦</Typography>
-                      <Typography variant="subtitle1" align='left'>📧 Email and 📱 mobile number available on request</Typography>
-                    </CardContent>
-                  </React.Fragment>
-                </Item>
-              </Grid>
-              <Grid item xs={8}>
+              <Grid item xs={12}>
                 <Item>
                   <Accordion>
                     <AccordionSummary
@@ -99,7 +91,7 @@ export default function Resume() {
                   </Accordion>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={12}>
                 <Item>
                   <Accordion>
                     <AccordionSummary
@@ -137,7 +129,7 @@ export default function Resume() {
                     </Accordion>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={12}>
                 <Item>
                   <Accordion>
                       <AccordionSummary
@@ -156,7 +148,7 @@ export default function Resume() {
                     </Accordion>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={12}>
                 <Item>
                   <Accordion>
                       <AccordionSummary
@@ -175,7 +167,7 @@ export default function Resume() {
                     </Accordion>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={12}>
                 <Item>
                   <Accordion>
                       <AccordionSummary
