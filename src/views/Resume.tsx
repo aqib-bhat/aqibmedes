@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Accordion, AccordionDetails, AccordionSummary, Box, CardContent, Grid, Link, Paper, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { experienceInfo, education, certifications } from '../data/ResumeData';
+import { experienceInfo, education, certifications, languages } from '../data/ResumeData';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -52,7 +52,7 @@ export default function Resume() {
                             <Typography variant="h6" gutterBottom align='left'>{item.name}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>🌎 {item.location}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>{item.title}</Typography>
-                            <Typography variant="subtitle1" gutterBottom align='left'>🗓 {item.startDate} -<strong>to</strong>- {item.endDate}</Typography>
+                            <Typography variant="subtitle1" gutterBottom align='left'>🗓 {item.startDate} ― {item.endDate}</Typography>
                             { item.details.map((detail) =>
                               <Typography variant="body1" gutterBottom align='left'>➡ {detail}</Typography>
                             )}
@@ -146,8 +146,9 @@ export default function Resume() {
                       </AccordionSummary>
                       <AccordionDetails>
                         <Typography>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                          malesuada lacus ex, sit amet blandit leo lobortis eget.
+                          { languages.map((language) =>
+                            <Typography variant="body1" gutterBottom align='left'>🎙 {language}</Typography>
+                          )}
                         </Typography>
                       </AccordionDetails>
                     </Accordion>

@@ -48,19 +48,6 @@ const experienceInfo = [
     },
 ];
 
-const certifications = [
-    {
-      name: 'Oracle Certified Professional, Java SE 6 Programmer',
-      issuingAuthority: 'Oracle University',
-      issueDate: 'August 5, 2015'
-    },
-    {
-      name: 'IBM Certified Application Developer, IBM WebSphere Portlet Factory 6.1.5',
-      issuingAuthority: 'IBM',
-      issueDate: 'September 22, 2011'
-    },
-];
-
 const education = [
     {
       institute: 'Texas A&M University (TAMU)',
@@ -89,4 +76,19 @@ const education = [
     },
 ];
 
-export { experienceInfo, certifications, education };
+const certifications = [
+    {
+      name: 'Oracle Certified Professional, Java SE 6 Programmer',
+      issuingAuthority: 'Oracle University',
+      issueDate: 'August 5, 2015'
+    },
+    {
+      name: 'IBM Certified Application Developer, IBM WebSphere Portlet Factory 6.1.5',
+      issuingAuthority: 'IBM',
+      issueDate: 'September 22, 2011'
+    },
+];
+
+const languages = [ 'English', 'Kashmiri', 'Hindi', 'Urdu' ];
+
+export { experienceInfo, education, certifications, languages };
