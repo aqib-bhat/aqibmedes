@@ -27,8 +27,8 @@ export default function Resume() {
                 <Item>
                   <React.Fragment>
                     <CardContent>
-                      <Typography variant="subtitle1">Software engineer with experience, skills, and a strong work ethic.</Typography>
-                      <Typography variant="subtitle1">Work Authorization: Canadian 3-year Open Work Permit approved in August 2023.</Typography>
+                      <Typography variant="subtitle1">Software engineer with experience, skills, and a strong work ethic</Typography>
+                      <Typography variant="subtitle1">🛂 Work Authorization: Canadian 3-year Open Work Permit approved in August 2023</Typography>
                       <Typography variant="subtitle1">🌎 Greater Vancouver Area, BC, Canada 🇨🇦</Typography>
                       <Typography variant="subtitle1">📧 Email and 📱 mobile number available on request</Typography>
                     </CardContent>
@@ -54,7 +54,7 @@ export default function Resume() {
                             <Typography variant="subtitle1" gutterBottom align='left'>{item.title}</Typography>
                             <Typography variant="subtitle1" gutterBottom align='left'>🗓 {item.startDate} ― {item.endDate}</Typography>
                             { item.details.map((detail) =>
-                              <Typography variant="body1" gutterBottom align='left'>➡ {detail}</Typography>
+                              <Typography variant="body1" gutterBottom align='left' key={detail}>➡ {detail}</Typography>
                             )}
                           </CardContent>
                         </React.Fragment>
@@ -101,7 +101,7 @@ export default function Resume() {
                                 <Typography variant="subtitle1" gutterBottom align='left'>📚 <strong>{item.degreeName} 🔍 {item.concentration}</strong></Typography>
                                 <Typography variant="body1" gutterBottom align='left'>🗓 <strong>Start: </strong>{item.start} 🗓 <strong>End: </strong>{item.end}</Typography>
                                 { item.details.map((detail) =>
-                                  <Typography variant="body1" gutterBottom align='left'>➡ {detail}</Typography>
+                                  <Typography variant="body1" gutterBottom align='left' key={detail}>➡ {detail}</Typography>
                                 )}
                               </CardContent>
                             </React.Fragment>
@@ -147,7 +147,7 @@ export default function Resume() {
                       <AccordionDetails>
                         <Typography>
                           { languages.map((language) =>
-                            <Typography variant="body1" gutterBottom align='left'>🎙 {language}</Typography>
+                            <Typography variant="body1" gutterBottom align='left' key={language}>🎙 {language}</Typography>
                           )}
                         </Typography>
                       </AccordionDetails>

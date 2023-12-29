@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import StickyFooter from './components/StickyFooter';
+import Footer from './components/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
+import { Container, CssBaseline } from '@mui/material';
 import DrawerAppBar from './components/DrawerAppBar';
 import Home from './views/Home';
 import AboutMe from './views/AboutMe';
@@ -24,16 +24,20 @@ function App() {
       <CssBaseline />
       <div className="App">
         <DrawerAppBar></DrawerAppBar>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<AboutMe />}></Route>
-          <Route path="/resume" element={<Resume />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/bookshelf" element={<Bookshelf />}></Route>
-          <Route path="/blogs" element={<Blogs />}></Route>
-          <Route path="/podcasts" element={<Podcasts />}></Route>
-        </Routes>
-        <StickyFooter></StickyFooter>
+        <Container maxWidth={false} disableGutters>
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />}></Route>
+              <Route path="/about" element={<AboutMe />}></Route>
+              <Route path="/resume" element={<Resume />}></Route>
+              <Route path="/contact" element={<Contact />}></Route>
+              <Route path="/bookshelf" element={<Bookshelf />}></Route>
+              <Route path="/blogs" element={<Blogs />}></Route>
+              <Route path="/podcasts" element={<Podcasts />}></Route>
+            </Routes>
+            <Footer></Footer>
+          </main>
+        </Container>
       </div>
     </ThemeProvider>
   );
