@@ -91,4 +91,19 @@ const certifications = [
 
 const languages = [ 'English', 'Kashmiri', 'Hindi', 'Urdu' ];
 
-export { experienceInfo, education, certifications, languages };
+const testScores = [
+    {
+      name: 'GRE',
+      result: '330/340'
+    },
+    {
+      name: 'TOEFL iBT',
+      result: '113/120'
+    },
+    {
+      name: 'IELTS',
+      result: 'Overall band 8.5/9.0'
+    },
+];
+
+export { experienceInfo, education, certifications, languages, testScores };

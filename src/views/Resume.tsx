@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Accordion, AccordionDetails, AccordionSummary, Box, CardContent, Grid, Link, Paper, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { experienceInfo, education, certifications, languages } from '../data/ResumeData';
+import { experienceInfo, education, certifications, languages, testScores } from '../data/ResumeData';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -165,10 +165,14 @@ export default function Resume() {
                         <Typography variant="h5">👨‍🏫 Test Scores</Typography>
                       </AccordionSummary>
                       <AccordionDetails>
-                        <Typography>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                          malesuada lacus ex, sit amet blandit leo lobortis eget.
-                        </Typography>
+                        {testScores.map((item) => (
+                            <React.Fragment key={item.name}>
+                              <CardContent>
+                                <Typography variant="h6" gutterBottom align='left'>{item.name}</Typography>
+                                <Typography variant="subtitle1" gutterBottom align='left'>🏹 <strong>Result: </strong>{item.result}</Typography>
+                              </CardContent>
+                            </React.Fragment>
+                          ))}
                       </AccordionDetails>
                     </Accordion>
                 </Item>
