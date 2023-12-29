@@ -61,10 +61,6 @@ export default function DrawerAppBar() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        <Link to="/">Aqib Niaz Bhat</Link>
-      </Typography>
-      <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item.name} disablePadding sx={{ display: 'inline' }}>
@@ -97,7 +93,7 @@ export default function DrawerAppBar() {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
           >
             <Link to="/">Aqib Niaz Bhat</Link>
           </Typography>

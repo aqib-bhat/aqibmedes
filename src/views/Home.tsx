@@ -10,7 +10,7 @@ class Home extends React.Component {
             <Avatar
                     alt="Aqib"
                     src={displayPic}
-                    sx={{ width: 200, height: 200 }}
+                    sx={{ width: 300, height: 300 }}
                     variant="square"
             ></Avatar>
             <p>

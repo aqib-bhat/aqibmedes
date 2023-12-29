@@ -106,7 +106,7 @@ const education = [
       ]
     },
     {
-      institute: 'National Institute of Technology (NIT)',
+      institute: 'National Institute of Technology (NIT Srinagar)',
       location: 'Srinagar, Jammu & Kashmir, India',
       degreeName: 'Bachelor of Technology (B.Tech.)',
       concentration: 'Electronics and Communication Engineering (ECE)',
@@ -114,7 +114,7 @@ const education = [
       end: 'July 2009',
       details: [
         'I took core courses like Microprocessors, Digital Electronics & Logic Design, Communication Systems, and Digital Signal Processing.',
-        'I also CS-related course like Introduction to Computer Programming, Data Structures, Internet & Web Design, and Java & Web Technologies.'
+        'I also CS-related courses like Introduction to Computer Programming, Data Structures, Internet & Web Design, and Java & Web Technologies.'
       ]
     },
 ];
