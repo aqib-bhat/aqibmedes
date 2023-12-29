@@ -48,6 +48,49 @@ const experienceInfo = [
     },
 ];
 
+const skills = [
+    {
+      type: 'Computer Languages',
+      examples: 'Java, C#/.Net, JavaScript'
+    },
+    {
+      type: 'Cloud technologies',
+      examples: 'AWS (SNS, SQS, API Gateway, Lambda, etc.), GCP (Apigee, GKE, CloudSql)'
+    },
+    {
+      type: 'Database/Storage',
+      examples: 'SQL/PLSQL, Postgres, Oracle, MS SqlServer, DynamoDB, S3'
+    },
+    {
+      type: 'Operating Systems',
+      examples: 'Linux, Windows, macOS'
+    },
+    {
+      type: 'Integrated Development Environments (IDEs)',
+      examples: 'JetBrains IntelliJ Idea and Rider, Visual Studio, VSCode, Eclipse'
+    },
+    {
+      type: 'Backend development',
+      examples: 'REST APIs, Spring, ASP.NET, Microservices, Kubernetes, Docker, Postman, Kafka'
+    },
+    {
+      type: 'Front-end development',
+      examples: 'HTML, CSS, JavaScript, AngularJS 1, Bootstrap, JQuery, React, Material UI (MUI)'
+    },
+    {
+      type: 'DevOps and SRE',
+      examples: 'CI/CD, Git, GitOps, Infrastructure as Code (CDK, Terraform, Cloud Formation), monitoring, alarming, dashboards'
+    },
+    {
+      type: 'Unit and Integration testing',
+      examples: 'JUnit, XUnit, Jasmine, Karma, Cypress, Selenium'
+    },
+    {
+      type: 'Project execution',
+      examples: 'Agile, synthesizing requirements, planning and estimations, scrum and sprint retro, mentoring'
+    },
+];
+
 const education = [
     {
       institute: 'Texas A&M University (TAMU)',
@@ -106,4 +149,4 @@ const testScores = [
     },
 ];
 
-export { experienceInfo, education, certifications, languages, testScores };
+export { experienceInfo, skills, education, certifications, languages, testScores };
