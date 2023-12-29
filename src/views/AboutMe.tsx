@@ -1,10 +1,11 @@
 import React from 'react';
+import { Typography } from '@mui/material';
 
 class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <h2>About Me</h2>
+                <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>About Me</Typography>
                 <main>
                     <p>A software engineer currently based in the Greater Vancouver Area in Canada.</p>
                     <p>Thought process</p>

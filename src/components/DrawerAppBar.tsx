@@ -2,7 +2,6 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
@@ -91,16 +90,16 @@ export default function DrawerAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h5"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' } }}
+            sx={{ flexGrow: 1, fontWeight: 'bold', display: { xs: 'block', sm: 'block' } }}
           >
             <Link to="/">Aqib Niaz Bhat</Link>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Link to={item.route} key={item.name}>
-                <Button sx={{ color: '#fff' }}>
+                <Button sx={{ color: '#fff', fontWeight: 'bold' }}>
                   {getNavItemIcon(item.name)}&nbsp;&nbsp;
                   {item.name}
                 </Button>

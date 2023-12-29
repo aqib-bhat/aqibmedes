@@ -1,11 +1,11 @@
 import React from 'react';
-import Link from '@mui/material/Link';
+import { Link, Typography } from '@mui/material';
 
 class Blogs extends React.Component {
     render() {
         return (
             <div>
-                <h2>Blogs</h2>
+                <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Blogs</Typography>
                 <main>
                     <p>
                         <Link href='https://aqibbhat.wordpress.com/' target="_blank" rel="noopener" underline="hover">Main blog on Wordpress</Link>

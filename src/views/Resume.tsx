@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Resume() {  
     return (
       <div>
-        <h2>Resume</h2>
+        <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Resume</Typography>
         <main>
           <Typography variant="h6" gutterBottom>
             Curriculum Vitae (CV) with detailed work history is available on request.
