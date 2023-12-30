@@ -12,14 +12,14 @@ class AboutMe extends React.Component {
                         Software Engineering has taught me a lot about how to get things done and life in general as well.<br/>
                         I am also interested in a host of other things, from science and spirituality to sports and comedy.
                     </p>
+                    <p><strong>Brief professional bio:</strong> ABC</p>
                     <p>
                         Thought process<br/>
-                        Conceptual clarity.
+                        Conceptual clarity | Empathy, Justice, and Logic
                     </p>
                     <p>Interests outside of work</p>
                     <p>
                         Motto: Leave things in a better place than you find them.<br/>
-                        Empathy, Justice, and Logic.
                     </p>
                 </main>
             </div>
