@@ -15,7 +15,7 @@ class Home extends React.Component {
                 <Typography variant="subtitle1">I am a software engineer by passion and profession.</Typography>
                 <Typography variant="subtitle1">To know more about me check the <StyledRouterLink to="/about">About</StyledRouterLink> page.</Typography>
                 <Typography variant="subtitle1">For professional information, check the <StyledRouterLink to="/resume">Resume</StyledRouterLink> page.</Typography>
-                <Typography variant="subtitle1">To get in touch, check the <StyledRouterLink to="/resume">Contact</StyledRouterLink> page.</Typography>   
+                <Typography variant="subtitle1">To get in touch, check the <StyledRouterLink to="/contact">Contact</StyledRouterLink> page.</Typography>   
               </Grid>
               <Grid item sm={12} md={4} lg={2}>
                 <img src={displayPic} className="App-logo" alt="Aqib" />
