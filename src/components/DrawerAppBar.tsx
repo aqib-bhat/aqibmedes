@@ -12,7 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { Link as InternalLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import AboutIcon from '@mui/icons-material/Person';
 import ResumeIcon from '@mui/icons-material/FileOpen';
@@ -63,12 +63,12 @@ export default function DrawerAppBar() {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.name} disablePadding sx={{ display: 'inline' }}>
-            <InternalLink to={item.route}>
+            <NavLink to={item.route}>
               <ListItemButton sx={{ textAlign: 'center' }}>
                 {getNavItemIcon(item.name)}
                 <ListItemText primary={item.name} />
               </ListItemButton>
-            </InternalLink>
+            </NavLink>
           </ListItem>
         ))}
       </List>
@@ -94,16 +94,15 @@ export default function DrawerAppBar() {
             component="div"
             sx={{ flexGrow: 1, fontWeight: 'bold', display: { xs: 'block', sm: 'block' } }}
           >
-            <InternalLink to="/">Aqib Niaz Bhat</InternalLink>
+            <NavLink to="/">Aqib Niaz Bhat</NavLink>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <InternalLink to={item.route} key={item.name}>
+              <NavLink to={item.route} key={item.name}>
                 <Button sx={{ color: '#fff', fontWeight: 'bold' }}>
-                  {getNavItemIcon(item.name)}&nbsp;&nbsp;
-                  {item.name}
+                  {getNavItemIcon(item.name)}&nbsp;&nbsp;{item.name}
                 </Button>
-              </InternalLink>
+              </NavLink>
             ))}
           </Box>
         </Toolbar>

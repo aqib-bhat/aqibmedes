@@ -13,7 +13,7 @@ class Home extends React.Component {
               <Grid item sm={12} md={8} lg={10}>
                 <Typography variant="subtitle1">Howdy! I am Aqib.</Typography>
                 <Typography variant="subtitle1">I am a software engineer by passion and profession.</Typography>
-                <Typography variant="subtitle1">To know more about me check the <StyledRouterLink to="/about">About</StyledRouterLink> page.</Typography>
+                <Typography variant="subtitle1">To know more about me, check the <StyledRouterLink to="/about">About</StyledRouterLink> page.</Typography>
                 <Typography variant="subtitle1">For professional information, check the <StyledRouterLink to="/resume">Resume</StyledRouterLink> page.</Typography>
                 <Typography variant="subtitle1">To get in touch, check the <StyledRouterLink to="/contact">Contact</StyledRouterLink> page.</Typography>   
               </Grid>
