@@ -1,16 +1,8 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
-import { Accordion, AccordionDetails, AccordionSummary, Box, CardContent, Grid, Link, Paper, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Box, CardContent, Grid, Link, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { experienceInfo, skills, education, certifications, languages, testScores } from '../data/ResumeData';
-
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
+import { Item } from '../components/Item';
 
 export default function Resume() {  
     return (

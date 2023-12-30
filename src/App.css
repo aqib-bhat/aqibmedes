@@ -5,13 +5,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100%;
   pointer-events: none;
+  margin: auto;
+  width: 100%;
+  border: 10px solid lightblue;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 1s linear;
   }
 }
 
