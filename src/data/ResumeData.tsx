@@ -106,7 +106,7 @@ const education = [
       ]
     },
     {
-      institute: 'National Institute of Technology (NIT Srinagar)',
+      institute: 'National Institute of Technology (NIT), Srinagar',
       location: 'Srinagar, Jammu & Kashmir, India',
       degreeName: 'Bachelor of Technology (B.Tech.)',
       concentration: 'Electronics and Communication Engineering (ECE)',
