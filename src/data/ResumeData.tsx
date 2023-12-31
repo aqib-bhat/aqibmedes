@@ -23,7 +23,7 @@ const experienceInfo = [
       ]
     },
     {
-      name: 'Amazon',
+      name: 'Amazon (internship)',
       location: 'Seattle, Washington state, USA',
       title: 'Software Development Engineer (SDE) Intern',
       startDate: 'May 17, 2016',
