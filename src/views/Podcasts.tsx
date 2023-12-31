@@ -7,7 +7,9 @@ class Podcasts extends React.Component {
             <div>
                 <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Podcasts</Typography>
                 <main>
-                    <p>Coming soon!</p>
+                    <Typography variant="body1" gutterBottom>
+                        Coming soon!
+                    </Typography>
                 </main>
             </div>
         )

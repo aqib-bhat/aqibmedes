@@ -9,8 +9,7 @@ function Copyright() {
       <Link href="https://aqib-bhat.github.io/aqibmedes/" underline="hover">
         Aqib Niaz Bhat
       </Link>
-      {new Date().getFullYear()}
-      {'.'}
+      {'2023 - '}{new Date().getFullYear()}{'.'}
     </Typography>
   );
 }

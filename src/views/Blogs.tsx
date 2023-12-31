@@ -7,9 +7,9 @@ class Blogs extends React.Component {
             <div>
                 <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Blogs</Typography>
                 <main>
-                    <p>
+                    <Typography variant="body1" gutterBottom>
                         <Link href='https://aqibbhat.wordpress.com/' target="_blank" rel="noopener" underline="hover">Main blog on Wordpress</Link>
-                    </p>
+                    </Typography>
                 </main>
             </div>
         )

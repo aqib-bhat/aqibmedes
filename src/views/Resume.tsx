@@ -141,11 +141,9 @@ export default function Resume() {
                         <Typography variant="h5">🗣 Languages</Typography>
                       </AccordionSummary>
                       <AccordionDetails>
-                        <Typography>
-                          { languages.map((language) =>
-                            <Typography variant="body1" gutterBottom align='left' key={language}>🎙 {language}</Typography>
-                          )}
-                        </Typography>
+                        { languages.map((language) =>
+                          <Typography variant="body1" gutterBottom align='left' key={language}>🎙 {language}</Typography>
+                        )}
                       </AccordionDetails>
                     </Accordion>
                 </Item>

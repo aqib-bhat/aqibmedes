@@ -7,7 +7,12 @@ class Bookshelf extends React.Component {
             <div>
                 <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Bookshelf</Typography>
                 <main>
-                    <p>Books that I have read / reading / recommend.</p>
+                    <Typography variant="subtitle1" gutterBottom>
+                        Books that I have read / reading / recommend.
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        This section will be updated soon!
+                    </Typography>
                 </main>
             </div>
         )
