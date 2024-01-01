@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Link, Typography } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import { StyledRouterLink } from '../components/StyledRouterLink';
 
 class AboutMe extends React.Component {
