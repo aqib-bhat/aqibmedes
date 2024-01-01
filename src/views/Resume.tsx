@@ -23,6 +23,12 @@ export default function Resume() {
                       <Typography variant="subtitle1">🛂 Work Authorization: Canadian 3-year Open Work Permit approved in August 2023</Typography>
                       <Typography variant="subtitle1">🌎 Greater Vancouver Area, BC, Canada 🇨🇦</Typography>
                       <Typography variant="subtitle1">📧 Email and 📱 mobile number available on request</Typography>
+                      <Typography variant="subtitle1" align='left'>
+                        <br/><strong>Professional bio</strong><br/>
+                        I am a software engineer with over ten years of experience working in multiple business domains and locations. I have worked in big and small companies, hence able to thrive in different environments.<br/>
+                        I have done full-stack work but focussed more on the backend, set up infrastructure, written automation and integration tests, created dashboards and alarms, been on-call, performed project planning, code reviews, blameless investigations of incidents, and handled communications. I have worked on performance optimization of software applications and improving the UI/UX. I love learning new technologies and getting things done pragmatically.<br/>
+                        I have been a part of and led small and big projects. I get involved in all aspects of software engineering, from understanding the business domain and synthesizing requirements to making the developer experience better while ensuring the sound monitoring of systems. I like to take ownership while building good relationships. I have implemented software services and handled the testing and DevOps/SRE aspects. Hence, coordinating with the Product/QA/DevOps/SRE/Other teams and customers is something that I do promptly and respectfully. I like to ensure clarity and the application of principles in a balanced way so that everyone, from a newcomer to an experienced person, the on-call engineer to the customer, all have a delightful experience.
+                      </Typography>
                     </CardContent>
                   </React.Fragment>
                 </Item>
