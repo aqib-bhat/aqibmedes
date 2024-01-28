@@ -7,7 +7,7 @@ const experienceInfo = [
       endDate: 'October 27, 2023',
       details: [
         'I was a senior engineer in the Platform team tasked with Identity and Access Management.',
-        'I was involved involved in the design and implementation of microservices for the integration with Okta to enable a Single Sign-On (SSO) experience for the tenant users of the SaaS applications.',
+        'I was involved in the design and implementation of microservices for the integration with Okta to enable a Single Sign-On (SSO) experience for the tenant users of the SaaS applications.',
         'I also coordinated with the QA, DevOps, and SRE teams to ensure the smooth rollout of the new microservices.',
         'I was also involved in improving operations, performance, and monitoring.'
       ]
