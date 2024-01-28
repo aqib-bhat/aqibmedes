@@ -1,7 +1,9 @@
 # Personal website for Aqib Niaz Bhat
-This repository is used for publishing my personal website at: https://aqib-bhat.github.io/aqibmedes/
+
+This repository is used for publishing my personal website at: <https://aqib-bhat.github.io/aqibmedes/>
 
 ## How was the website built?
+
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   - You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
   - To learn React, check out the [React documentation](https://reactjs.org/)
@@ -16,24 +18,26 @@ This repository is used for publishing my personal website at: https://aqib-bhat
 - Install `npm` (`npm` version >= 5.2 gives us `npx`)
 - Install `yarn`: `npm install --global yarn`
 
-### If you want to create your own repository:
-  - In GitHub create a repository for your personal website e.g. `personal-website`
-  - Check out the repo locally and `cd` to it.
-  - Run the command: `npx create-react-app . --template typescript`
-    - `.` is used instead of a custom app name so that instead of creating a new directory, the react app is created in the current directory/repository.
-    - `--template typescript` is optional. You can avoid it if you plan to use plain JavaScript.
+### If you want to create your own repository
+
+- In GitHub create a repository for your personal website e.g. `personal-website`
+- Check out the repo locally and `cd` to it.
+- Run the command: `npx create-react-app . --template typescript`
+  - `.` is used instead of a custom app name so that instead of creating a new directory, the react app is created in the current directory/repository.
+  - `--template typescript` is optional. You can avoid it if you plan to use plain JavaScript.
 - In `App.tsx`, remove the `<p>` and `<a>` tags, and add an `<h1>` tag.
 - In `index.html`, update fields like `meta` tag's `content` attribute and the `title` tag.
 - Run tests: `npm run test`
-  - Fix `App.test.tsx` by changing the `getByText` param.
+- Fix `App.test.tsx` by changing the `getByText` param.
 - Write your custom React components in a `components` directory that you will have to create.
-- Adding the **Material UI (MUI)** React components: https://mui.com/material-ui/getting-started/installation/
+- Adding the **Material UI (MUI)** React components: <https://mui.com/material-ui/getting-started/installation/>
   - `yarn add @mui/material @emotion/react @emotion/styled`
   - `yarn add @fontsource/roboto`
   - `yarn add @mui/icons-material`
 - Install React Router for web applications: `yarn add react-router-dom`
 
-### If you check out this repository:
+### If you check out this repository
+
 - Run: `npm install`
   - You will need to run this to install the required dependencies and create+fill your `node_modules` directory.
 
@@ -82,20 +86,22 @@ In the project directory, you can run:
   - Choose `gh-pages` as the branch for deployment.
 - Again deploy the application: `npm run deploy`.
   - Check your GitHub repo to make sure that a new deployment has started using the `gh-pages` branch of your repository.
-  - Once the latest deployment finishes, your website should now be live at: https://yourusername.github.io/repository-name
+  - Once the latest deployment finishes, your website should now be live at: <https://yourusername.github.io/repository-name>
     - Remember to replace `yourusername` with **your actual GitHub username**! :D
- 
+
 ## References and acknowledgements
- 
+
 I was able to get going following these sources:
-- https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/
-- https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
-- https://reactgo.com/deploy-react-app-github-pages/
+
+- <https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/>
+- <https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/>
+- <https://reactgo.com/deploy-react-app-github-pages/>
 
 **Note:** Please remember that things change fast in software, and often when following an article, I found that some things were no longer applicable and I had to find a way through other sources or experimenting on my own.
 
 Later, I referred to other sources to understand the React code and make custom changes. Some of the sources I remember:
-- MUI documentation: https://mui.com/material-ui/getting-started/
-  - Responsiveness: https://www.youtube.com/watch?v=ZowbtOWOElY
-- https://kentcdodds.com/blog/understanding-reacts-key-prop
-- And of course, many answers were found on StackOverflow: https://stackoverflow.com/
+
+- MUI documentation: <https://mui.com/material-ui/getting-started/>
+  - Responsiveness: <https://www.youtube.com/watch?v=ZowbtOWOElY>
+- <https://kentcdodds.com/blog/understanding-reacts-key-prop>
+- And of course, many answers were found on StackOverflow: <https://stackoverflow.com/>

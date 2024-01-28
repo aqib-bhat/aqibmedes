@@ -10,7 +10,6 @@ export default function Resume() {
         <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>Resume</Typography>
         <main>
           <Typography variant="h6" gutterBottom>
-            Curriculum Vitae (CV) with detailed work history is available on request.
             <Link href='https://www.linkedin.com/in/aqibbhat/' target="_blank" rel="noopener" underline="hover">LinkedIn profile</Link>
           </Typography>
           <Box sx={{ flexGrow: 1, padding: 2 }}>

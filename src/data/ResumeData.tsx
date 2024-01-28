@@ -6,7 +6,9 @@ const experienceInfo = [
       startDate: 'April 4, 2022',
       endDate: 'October 27, 2023',
       details: [
-        'I worked in the Platform team building microservices and implementing the integration with Okta to enable a Single Sign-On (SSO) experience for the tenant users of the SaaS applications.',
+        'I was a senior engineer in the Platform team tasked with Identity and Access Management.',
+        'I was involved involved in the design and implementation of microservices for the integration with Okta to enable a Single Sign-On (SSO) experience for the tenant users of the SaaS applications.',
+        'I also coordinated with the QA, DevOps, and SRE teams to ensure the smooth rollout of the new microservices.',
         'I was also involved in improving operations, performance, and monitoring.'
       ]
     },
@@ -17,9 +19,11 @@ const experienceInfo = [
       startDate: 'May 30, 2017',
       endDate: 'April 1, 2022',
       details: [
-        'I was part of the Amazon Publishing division and worked on various internal and external projects (examples: Amazon Original Stories and World Book Day celebrations).',
-        'I did full-stack work as well as cloud migrations of existing applications.',
-        'Besides new features, I remodeled existing applications to streamline the book metadata and comply with privacy regulations.'
+        'I was part of the Amazon Publishing division and built various internal and external web applications and campaigns (examples: Amazon Original Stories and World Book Day celebrations).',
+        'I did full-stack work building backend services as well as the front-end/UI.',
+        'I also lead the cloud migrations of some existing applications.',
+        'Besides new features, I remodeled existing applications to streamline the book metadata and comply with privacy regulations.',
+        'I multiplied my impact by mentoring and helping out interns, fresh grads, and also experienced engineers who were new to the team.'
       ]
     },
     {
@@ -43,7 +47,7 @@ const experienceInfo = [
         'I started work as a software engineer after graduation.',
         'I learned and practiced full-stack deployment.',
         'I worked on large projects for insurance and banking clients.',
-        'I also worked in the UK while handling the offshore team in India.'
+        'I also worked in the UK being on-site at the York office of Aviva Life Insurance and handled the offshore team in India.'
       ]
     },
 ];
