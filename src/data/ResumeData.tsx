@@ -83,7 +83,7 @@ const skills = [
     },
     {
       type: 'DevOps and SRE',
-      examples: 'CI/CD, Git, GitOps, Infrastructure as Code (CDK, Terraform, Cloud Formation), monitoring, alarming, dashboards'
+      examples: 'CI/CD, Docker, Git, GitOps, Infrastructure as Code (CDK, Terraform, Cloud Formation), monitoring, alarming, dashboards'
     },
     {
       type: 'Unit and Integration testing',
@@ -128,6 +128,11 @@ const certifications = [
       name: 'Oracle Certified Professional, Java SE 6 Programmer',
       issuingAuthority: 'Oracle University',
       issueDate: 'August 5, 2015'
+    },
+    {
+      name: 'Docker Essentials: A Developer Introduction',
+      issuingAuthority: 'IBM',
+      issueDate: 'February 10, 2024'
     },
     {
       name: 'IBM Certified Application Developer, IBM WebSphere Portlet Factory 6.1.5',
