@@ -38,7 +38,7 @@ This repository is used for publishing my personal website at: <https://aqib-bha
 
 ### If you check out this repository
 
-- Run: `npm install`
+- Run: `yarn install`
   - You will need to run this to install the required dependencies and create+fill your `node_modules` directory.
 
 ### Scripts
