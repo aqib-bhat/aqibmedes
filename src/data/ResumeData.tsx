@@ -21,7 +21,7 @@ const experienceInfo = [
       details: [
         'I was part of the Amazon Publishing division and built various internal and external web applications and campaigns (examples: Amazon Original Stories and World Book Day celebrations).',
         'I did full-stack work building backend services as well as the front-end/UI.',
-        'I also lead the cloud migrations of some existing applications.',
+        'I also led the cloud migrations of some existing applications.',
         'Besides new features, I remodeled existing applications to streamline the book metadata and comply with privacy regulations.',
         'I multiplied my impact by mentoring and helping out interns, fresh grads, and also experienced engineers who were new to the team.'
       ]
@@ -47,7 +47,7 @@ const experienceInfo = [
         'I started work as a software engineer after graduation.',
         'I learned and practiced full-stack deployment.',
         'I worked on large projects for insurance and banking clients.',
-        'I also worked in the UK being on-site at the York office of Aviva Life Insurance and handled the offshore team in India.'
+        'I also worked in the UK as the on-site lead at the York office of Aviva Life Insurance while handling the offshore team in India.'
       ]
     },
 ];
@@ -58,24 +58,16 @@ const skills = [
       examples: 'Java, C#/.Net, JavaScript'
     },
     {
-      type: 'Cloud technologies',
-      examples: 'AWS (SNS, SQS, API Gateway, Lambda, etc.), GCP (Apigee, GKE, CloudSql)'
-    },
-    {
-      type: 'Database/Storage',
-      examples: 'SQL/PLSQL, Postgres, Oracle, MS SqlServer, DynamoDB, S3'
-    },
-    {
       type: 'Operating Systems',
       examples: 'Linux, Windows, macOS'
     },
     {
-      type: 'Integrated Development Environments (IDEs)',
-      examples: 'JetBrains IntelliJ Idea and Rider, Visual Studio, VSCode, Eclipse'
+      type: 'Backend development',
+      examples: 'REST APIs, Spring, ASP.NET, Microservices, Postman, Kafka, Consul, Vault'
     },
     {
-      type: 'Backend development',
-      examples: 'REST APIs, Spring, ASP.NET, Microservices, Kubernetes, Docker, Postman, Kafka'
+      type: 'Cloud technologies',
+      examples: 'AWS (SNS, SQS, API Gateway, Lambda, CloudFront, etc.), GCP (Apigee, GKE, CloudSql)'
     },
     {
       type: 'Front-end development',
@@ -83,11 +75,19 @@ const skills = [
     },
     {
       type: 'DevOps and SRE',
-      examples: 'CI/CD, Docker, Git, GitOps, Infrastructure as Code (CDK, Terraform, Cloud Formation), monitoring, alarming, dashboards'
+      examples: 'CI/CD, Git, GitOps, Docker, Kubernetes, Infrastructure as Code (CDK, Terraform, Cloud Formation), ArgoCD, monitoring, alarming, dashboards'
     },
     {
       type: 'Unit and Integration testing',
       examples: 'JUnit, XUnit, Jasmine, Karma, Cypress, Selenium'
+    },
+    {
+      type: 'Database/Storage',
+      examples: 'SQL/PLSQL, Postgres, Oracle, MS SqlServer, DynamoDB, S3'
+    },
+    {
+      type: 'Integrated Development Environments (IDEs)',
+      examples: 'JetBrains IntelliJ Idea and Rider, Visual Studio, VSCode, Eclipse'
     },
     {
       type: 'Project execution',
