@@ -1,36 +1,36 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import { NavLink } from 'react-router-dom';
-import HomeIcon from '@mui/icons-material/Home';
-import AboutIcon from '@mui/icons-material/Person';
-import ResumeIcon from '@mui/icons-material/FileOpen';
-import ContactIcon from '@mui/icons-material/ContactPage';
-import BookshelfIcon from '@mui/icons-material/LibraryBooksTwoTone';
-import BlogsIcon from '@mui/icons-material/LineWeightSharp';
-import PodcastsIcon from '@mui/icons-material/Mic';
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import CssBaseline from "@mui/material/CssBaseline";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import MenuIcon from "@mui/icons-material/Menu";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import { NavLink } from "react-router-dom";
+import HomeIcon from "@mui/icons-material/Home";
+import AboutIcon from "@mui/icons-material/Person";
+import ResumeIcon from "@mui/icons-material/FileOpen";
+import ContactIcon from "@mui/icons-material/ContactPage";
+import BookshelfIcon from "@mui/icons-material/LibraryBooksTwoTone";
+import BlogsIcon from "@mui/icons-material/LineWeightSharp";
+import PodcastsIcon from "@mui/icons-material/Mic";
 
 const drawerWidth = 240;
 const navItems = [
-    { name: 'Home', route: '/', icon: 'HomeIcon' },
-    { name: 'About', route: '/about', icon: 'HomeIcon' },
-    { name: 'Resume', route: '/resume', icon: 'HomeIcon' },
-    { name: 'Contact', route: '/contact', icon: 'HomeIcon' },
-    { name: 'Bookshelf', route: '/bookshelf', icon: 'HomeIcon' },
-    { name: 'Blogs', route: '/blogs', icon: 'HomeIcon' },
-    { name: 'Podcasts', route: '/podcasts', icon: 'HomeIcon' },
-  ];
+  { name: "Home", route: "/", icon: "HomeIcon" },
+  { name: "About", route: "/about", icon: "HomeIcon" },
+  { name: "Resume", route: "/resume", icon: "HomeIcon" },
+  { name: "Contact", route: "/contact", icon: "HomeIcon" },
+  { name: "Bookshelf", route: "/bookshelf", icon: "HomeIcon" },
+  { name: "Blogs", route: "/blogs", icon: "HomeIcon" },
+  { name: "Podcasts", route: "/podcasts", icon: "HomeIcon" },
+];
 
 export default function DrawerAppBar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -40,31 +40,31 @@ export default function DrawerAppBar() {
   };
 
   const getNavItemIcon = (navItemName: string) => {
-    switch ( navItemName ) {
-        case 'About':
-            return <AboutIcon color='success'/>;
-        case 'Contact':
-            return <ContactIcon color='primary'/>;
-        case 'Resume':
-            return <ResumeIcon color='success'/>;
-        case 'Bookshelf':
-            return <BookshelfIcon color='primary'/>;
-        case 'Blogs':
-            return <BlogsIcon color='success'/>;
-        case 'Podcasts':
-            return <PodcastsIcon color='primary'/>;
-        default:
-            return <HomeIcon color='primary'/>;
+    switch (navItemName) {
+      case "About":
+        return <AboutIcon color="success" />;
+      case "Contact":
+        return <ContactIcon color="primary" />;
+      case "Resume":
+        return <ResumeIcon color="success" />;
+      case "Bookshelf":
+        return <BookshelfIcon color="primary" />;
+      case "Blogs":
+        return <BlogsIcon color="success" />;
+      case "Podcasts":
+        return <PodcastsIcon color="primary" />;
+      default:
+        return <HomeIcon color="primary" />;
     }
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <List>
         {navItems.map((item) => (
-          <ListItem key={item.name} disablePadding sx={{ display: 'inline' }}>
+          <ListItem key={item.name} disablePadding sx={{ display: "inline" }}>
             <NavLink to={item.route}>
-              <ListItemButton sx={{ textAlign: 'center' }}>
+              <ListItemButton sx={{ textAlign: "center" }}>
                 {getNavItemIcon(item.name)}
                 <ListItemText primary={item.name} />
               </ListItemButton>
@@ -76,7 +76,7 @@ export default function DrawerAppBar() {
   );
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
@@ -85,21 +85,25 @@ export default function DrawerAppBar() {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
+            sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
           <Typography
             variant="h5"
             component="div"
-            sx={{ flexGrow: 1, fontWeight: 'bold', display: { xs: 'block', sm: 'block' } }}
+            sx={{
+              flexGrow: 1,
+              fontWeight: "bold",
+              display: { xs: "block", sm: "block" },
+            }}
           >
             <NavLink to="/">Aqib Niaz Bhat</NavLink>
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <NavLink to={item.route} key={item.name}>
-                <Button sx={{ color: '#fff', fontWeight: 'bold' }}>
+                <Button sx={{ color: "#fff", fontWeight: "bold" }}>
                   {getNavItemIcon(item.name)}&nbsp;&nbsp;{item.name}
                 </Button>
               </NavLink>
@@ -116,8 +120,11 @@ export default function DrawerAppBar() {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            display: { xs: "block", sm: "none" },
+            "& .MuiDrawer-paper": {
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
           }}
         >
           {drawer}

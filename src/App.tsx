@@ -1,20 +1,20 @@
-import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Container, CssBaseline } from '@mui/material';
-import DrawerAppBar from './components/DrawerAppBar';
-import Home from './views/Home';
-import AboutMe from './views/AboutMe';
-import Resume from './views/Resume';
-import Contact from './views/Contact';
-import Bookshelf from './views/Bookshelf';
-import Blogs from './views/Blogs';
-import Podcasts from './views/Podcasts';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { Container, CssBaseline } from "@mui/material";
+import DrawerAppBar from "./components/DrawerAppBar";
+import Home from "./views/Home";
+import AboutMe from "./views/AboutMe";
+import Resume from "./views/Resume";
+import Contact from "./views/Contact";
+import Bookshelf from "./views/Bookshelf";
+import Blogs from "./views/Blogs";
+import Podcasts from "./views/Podcasts";
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "dark",
   },
 });
 
