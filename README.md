@@ -27,7 +27,7 @@ This repository is used for publishing my personal website at: <https://aqib-bha
   - `--template typescript` is optional. You can avoid it if you plan to use plain JavaScript.
 - In `App.tsx`, remove the `<p>` and `<a>` tags, and add an `<h1>` tag.
 - In `index.html`, update fields like `meta` tag's `content` attribute and the `title` tag.
-- Run tests: `npm run test`
+- Run tests: `npm run test` OR `yarn run test`
 - Fix `App.test.tsx` by changing the `getByText` param.
 - Write your custom React components in a `components` directory that you will have to create.
 - Adding the **Material UI (MUI)** React components: <https://mui.com/material-ui/getting-started/installation/>
@@ -45,19 +45,19 @@ This repository is used for publishing my personal website at: <https://aqib-bha
 
 In the project directory, you can run:
 
-#### `npm start`
+#### `npm start` OR `yarn start`
 
 - Runs the app in the development mode.
   - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   - The page will reload if you make edits.
 - You will also see any lint errors in the console.
 
-#### `npm test`
+#### `npm test` OR `yarn test`
 
 - Launches the test runner in the interactive watch mode.\
 - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### `npm run build`
+#### `npm run build` OR `yarn run build`
 
 - Builds the app for production to the `build` folder.
 - It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -81,7 +81,7 @@ In the project directory, you can run:
 - In `package.json` > `scripts` > add
   - `"predeploy": "npm run build",`
   - `"deploy": "gh-pages -d build",`
-- Deploy the application: `npm run deploy`
+- Deploy the application: `npm run deploy` OR `yarn run deploy`
 - Go to the "Settings" page for the repository, then click on the "Pages" tab.
   - Choose `gh-pages` as the branch for deployment.
 - Again deploy the application: `npm run deploy`.
