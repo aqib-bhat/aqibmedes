@@ -20,11 +20,12 @@
     "css-select": "5.1.0",
     "css-selector": "^0.1.0",
     "gh-pages": "^6.1.1",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.3",
     "web-vitals": "^3.5.2",
     "webpack-dev-middleware": "5.3.4"
   },

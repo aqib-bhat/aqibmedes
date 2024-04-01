@@ -88,6 +88,8 @@ In the project directory, you can run:
   - Check your GitHub repo to make sure that a new deployment has started using the `gh-pages` branch of your repository.
   - Once the latest deployment finishes, your website should now be live at: <https://yourusername.github.io/repository-name>
     - Remember to replace `yourusername` with **your actual GitHub username**! :D
+- Later, when making changes: `yarn upgrade`, `yarn test`, `yarn start`, `yarn run build`, `yarn run deploy`.
+  - `rm -rf node_modules/` and `yarn install` if needed.
 
 ## References and acknowledgements
 
