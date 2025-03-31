@@ -48,8 +48,8 @@ export default function Resume() {
                       work ethic
                     </Typography>
                     <Typography variant="subtitle1">
-                      🛂 Work Authorization: Canadian 3-year Open Work Permit
-                      approved in August 2023
+                      🛂 Work Authorization / Immigration status: I am a
+                      Permanent Resident of Canada.
                     </Typography>
                     <Typography variant="subtitle1">
                       🌎 Greater Vancouver Area, BC, Canada 🇨🇦
