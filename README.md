@@ -62,7 +62,7 @@ In the project directory, you can run:
       - It will ask to install the `serve` package
   - See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### ::warning:: `npm run eject`
+#### :warning: `npm run eject`
 
 - **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 - If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
