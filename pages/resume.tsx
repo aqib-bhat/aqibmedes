@@ -17,8 +17,8 @@ import {
   certifications,
   languages,
   testScores,
-} from "../data/ResumeData";
-import { Item } from "../components/Item";
+} from "../src/data/ResumeData";
+import { Item } from "../src/components/Item";
 
 export default function Resume() {
   return (
@@ -83,7 +83,7 @@ export default function Resume() {
                       systems. I like to take ownership while building good
                       relationships. I have implemented software services and
                       handled the testing and DevOps/SRE aspects. Hence,
-                      coordinating with the Product/QA/DevOps/SRE/Other teams
+                      coordinating with the Product/QA/DevOps/Other teams
                       and customers is something that I do promptly and
                       respectfully. I like to ensure clarity and the application
                       of principles in a balanced way so that everyone, from a
