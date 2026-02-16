@@ -10,7 +10,7 @@ This repository is used for publishing my personal website at: <https://aqib-bha
 
 ## Development
 
-- Install NodeJS on your computer.
+- Install NodeJS (>=22.12.0) on your computer.
 - Run `npm install` to install the required dependencies and create+fill your `node_modules` directory.
 
 ### Scripts

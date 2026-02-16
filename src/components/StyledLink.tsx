@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { styled } from "@mui/material";
 
@@ -20,7 +21,7 @@ const StyledAnchor = styled(Link)`
 
 interface StyledLinkProps {
   to: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const StyledLink = ({ to, children }: StyledLinkProps) => {
