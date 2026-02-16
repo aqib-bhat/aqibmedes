@@ -17,8 +17,8 @@ import {
   certifications,
   languages,
   testScores,
-} from "../src/data/ResumeData";
-import { Item } from "../src/components/Item";
+} from "../data/ResumeData";
+import { Item } from "../components/Item";
 
 export default function Resume() {
   return (

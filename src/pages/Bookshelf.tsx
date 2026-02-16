@@ -8,8 +8,8 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Item } from "../src/components/Item";
-import { machineLearning } from "../src/data/BookRecommendations";
+import { Item } from "../components/Item";
+import { machineLearning } from "../data/BookRecommendations";
 
 export default function Bookshelf() {
   return (

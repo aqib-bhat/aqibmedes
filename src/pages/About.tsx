@@ -1,8 +1,8 @@
 import React from "react";
 import { Divider, Typography } from "@mui/material";
-import { StyledNextLink } from "../src/components/StyledNextLink";
+import { StyledLink } from "../components/StyledLink";
 
-export default function AboutMe() {
+export default function About() {
   return (
     <div>
       <Typography variant="h3" gutterBottom sx={{ fontWeight: "bold" }}>
@@ -15,7 +15,7 @@ export default function AboutMe() {
           things done and life in general as well. I am also interested in a
           host of other things, from science and spirituality to sports and
           comedy. For professional information, check the{" "}
-          <StyledNextLink to="/resume">Resume</StyledNextLink> page.
+          <StyledLink to="/resume">Resume</StyledLink> page.
         </Typography>
         <br />
         <Divider></Divider>

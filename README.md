@@ -4,12 +4,13 @@ This repository is used for publishing my personal website at: <https://aqib-bha
 
 ## How was the website built?
 
-- This project was built using [Netx.js](https://nextjs.org/docs) that is a React framework.
-- This website is published to GitHub pages.
+- This project was built using [React](https://react.dev/) with [Vite](https://vite.dev/) as the build tool and [React Router](https://reactrouter.com/) for client-side routing.
+- [Material-UI (MUI)](https://mui.com/) is used as the component library.
+- This website is published to GitHub Pages.
 
 ## Development
 
-- Install NodeJS on your computer.
+- Install NodeJS (>=22.12.0) on your computer.
 - Run `npm install` to install the required dependencies and create+fill your `node_modules` directory.
 
 ### Scripts
@@ -17,9 +18,8 @@ This repository is used for publishing my personal website at: <https://aqib-bha
 In the project directory, you can run:
 
 - `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run predeploy` - Build for deployment
+- `npm run build` - Build for production (outputs to `dist/`)
+- `npm run preview` - Preview production build locally
 - `npm run deploy` - Deploy to GitHub Pages
 
 ### First deployment - going live

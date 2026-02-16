@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Personal website of Aqib Niaz Bhat, a software engineer, showcasing professional details and links to other interests"
+    />
+    <link rel="apple-touch-icon" href="/aqibmedes/Aqib_CloseUp.jpeg" />
+    <link rel="manifest" href="/aqibmedes/manifest.json" />
+    <link rel="icon" href="/aqibmedes/Aqib_CloseUp.jpeg" />
+    <title>Aqib Niaz Bhat - Aqibmedes</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+      // Handle SPA redirects from 404.html on GitHub Pages
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
