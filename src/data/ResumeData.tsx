@@ -1,13 +1,25 @@
 const experienceInfo = [
   {
+    name: "Upgrade Inc.",
+    location: "Vancouver, British Columbia, Canada (Remote/WFH)",
+    title: "Senior Software Developer",
+    from: "September, 2025",
+    to: "Present",
+    details: [
+      "I work on backend services and APIs related to the credit fraud and decisioning domain.",
+      "Working with product managers, data scientists, and other engineers across different teams to design and implement features and improvements.",
+      "Contributing to the efficient use of AI assisted and other software development practices."
+    ],
+  },
+  {
     name: "Quandri Technologies Inc.",
     location: "Vancouver, British Columbia, Canada (Hybrid - 3 days in office)",
     title: "Software Engineer",
     from: "February, 2024",
-    to: "Present",
+    to: "August, 2025",
     details: [
-      "I am working on some of the core products",
-      "Analyzing code, policies, and practices to bring stability and maturity",
+      "I worked on some of the core products.",
+      "Analyzed code, policies, and practices to bring stability and maturity to the codebase and products.",
     ],
   },
   {
