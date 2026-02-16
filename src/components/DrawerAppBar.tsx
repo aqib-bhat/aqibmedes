@@ -12,7 +12,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { styled } from "@mui/material/styles";
 import HomeIcon from "@mui/icons-material/Home";
 import AboutIcon from "@mui/icons-material/Person";
 import ResumeIcon from "@mui/icons-material/FileOpen";
@@ -20,6 +21,11 @@ import ContactIcon from "@mui/icons-material/ContactPage";
 import BookshelfIcon from "@mui/icons-material/LibraryBooksTwoTone";
 import BlogsIcon from "@mui/icons-material/LineWeightSharp";
 import PodcastsIcon from "@mui/icons-material/Mic";
+
+const NavLink = styled(RouterLink)({
+  textDecoration: "none",
+  color: "inherit",
+});
 
 const drawerWidth = 240;
 const navItems = [
@@ -63,12 +69,12 @@ export default function DrawerAppBar() {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.name} disablePadding sx={{ display: "inline" }}>
-            <Link to={item.route} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <NavLink to={item.route}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 {getNavItemIcon(item.name)}
                 <ListItemText primary={item.name} />
               </ListItemButton>
-            </Link>
+            </NavLink>
           </ListItem>
         ))}
       </List>
@@ -98,17 +104,17 @@ export default function DrawerAppBar() {
               display: { xs: "block", sm: "block" },
             }}
           >
-            <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+            <NavLink to="/">
               Aqib Niaz Bhat
-            </Link>
+            </NavLink>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Link to={item.route} key={item.name} style={{ textDecoration: 'none' }}>
+              <NavLink to={item.route} key={item.name}>
                 <Button sx={{ color: "#fff", fontWeight: "bold" }}>
                   {getNavItemIcon(item.name)}&nbsp;&nbsp;{item.name}
                 </Button>
-              </Link>
+              </NavLink>
             ))}
           </Box>
         </Toolbar>
