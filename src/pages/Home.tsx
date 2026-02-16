@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
-import { StyledNextLink } from "../src/components/StyledNextLink";
+import { StyledLink } from "../components/StyledLink";
 
 export default function Home() {
   return (
@@ -14,15 +14,15 @@ export default function Home() {
             </Typography>
             <Typography variant="subtitle1">
               To know more about me, check the{" "}
-              <StyledNextLink to="/about">About</StyledNextLink> page.
+              <StyledLink to="/about">About</StyledLink> page.
             </Typography>
             <Typography variant="subtitle1">
               For professional information, check the{" "}
-              <StyledNextLink to="/resume">Resume</StyledNextLink> page.
+              <StyledLink to="/resume">Resume</StyledLink> page.
             </Typography>
             <Typography variant="subtitle1">
               To get in touch, check the{" "}
-              <StyledNextLink to="/contact">Contact</StyledNextLink> page.
+              <StyledLink to="/contact">Contact</StyledLink> page.
             </Typography>
           </Grid>
           <Grid item sm={12} md={4} lg={2}>

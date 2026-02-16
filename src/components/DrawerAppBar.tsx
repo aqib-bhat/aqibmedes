@@ -12,8 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import AboutIcon from "@mui/icons-material/Person";
 import ResumeIcon from "@mui/icons-material/FileOpen";
@@ -64,7 +63,7 @@ export default function DrawerAppBar() {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.name} disablePadding sx={{ display: "inline" }}>
-            <Link href={item.route} passHref legacyBehavior>
+            <Link to={item.route} style={{ textDecoration: 'none', color: 'inherit' }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 {getNavItemIcon(item.name)}
                 <ListItemText primary={item.name} />
@@ -99,13 +98,13 @@ export default function DrawerAppBar() {
               display: { xs: "block", sm: "block" },
             }}
           >
-            <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+            <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
               Aqib Niaz Bhat
             </Link>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Link href={item.route} key={item.name} passHref legacyBehavior>
+              <Link to={item.route} key={item.name} style={{ textDecoration: 'none' }}>
                 <Button sx={{ color: "#fff", fontWeight: "bold" }}>
                   {getNavItemIcon(item.name)}&nbsp;&nbsp;{item.name}
                 </Button>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Stack, Typography } from "@mui/material";
-import { Item } from "../src/components/Item";
+import { Item } from "../components/Item";
 
 export default function Contact() {
   return (
