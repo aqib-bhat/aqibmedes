@@ -20,18 +20,12 @@ In the project directory, you can run:
 - `npm run dev` - Start development server
 - `npm run build` - Build for production (outputs to `dist/`)
 - `npm run preview` - Preview production build locally
-- `npm run deploy` - Deploy to GitHub Pages
 
-### First deployment - going live
+### Deployment
 
-- In `package.json`, set: `"homepage":"https://yourusername.github.io/repository-name"`
-- Deploy the application: `npm run deploy`
-- Go to the "Settings" page for the repository, then click on the "Pages" tab.
-  - Choose `gh-pages` as the branch for deployment.
-- Again deploy the application: `npm run deploy`.
-  - Check your GitHub repo to make sure that a new deployment has started using the `gh-pages` branch of your repository.
-  - Once the latest deployment finishes, your website should now be live at: <https://yourusername.github.io/repository-name>
-    - Remember to replace `yourusername` with **your actual GitHub username**! :D
+Deployment is automated via GitHub Actions. Pushing to the `master` branch triggers a build and deploy to GitHub Pages (see `.github/workflows/deploy.yml`).
+
+**Setup**: In your repository's **Settings → Pages → Source**, select **"GitHub Actions"**.
 
 ### Troubleshooting
 

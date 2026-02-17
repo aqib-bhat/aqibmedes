@@ -9,7 +9,6 @@ npm install        # Install dependencies
 npm run dev        # Development server (Vite)
 npm run build      # Production build (tsc + vite build, outputs to dist/)
 npm run preview    # Preview production build locally
-npm run deploy     # Deploy to GitHub Pages (builds first via predeploy)
 ```
 
 ## Architecture
@@ -46,7 +45,7 @@ npm run deploy     # Deploy to GitHub Pages (builds first via predeploy)
 ### GitHub Pages Deployment
 - **Base Path**: All routes and assets include `/aqibmedes/` prefix
 - **Asset References**: Use `/aqibmedes/` prefix for public assets (images, manifest)
-- **Deploy**: `gh-pages -d dist` publishes the `dist/` directory
+- **CI/CD**: GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys on push to `master`
 
 ### Component Patterns
 - Internal links use React Router `Link` or the `StyledLink` component
